@@ -30,7 +30,7 @@ export default function App(){
 
   const handleCopyToClipboard = () => {
     copy(generatedPassword);
-    // alert('Password copied to clipboard!');
+    alert('Password copied to clipboard!');
   };
 
   return (
